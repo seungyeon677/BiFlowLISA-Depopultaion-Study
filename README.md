@@ -1,4 +1,4 @@
-# Measuring Spatial Associations of Intercity Flows between Depopulation Regions Considering Nearest Neighborhoods** 
+# Measuring Spatial Associations of Intercity Flows between Depopulation Regions Considering Nearest Neighborhoods 
 > *Published in the Journal of the Korean Geographical Society (2023), Vol. 58, No. 6, pp. 644–656.*
 
 This repository contains the Python implementation and analysis notebooks for exploring spatial associations of intercity flows (population movement, credit card consumption) within depopulation-hit regions in South Korea.
