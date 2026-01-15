@@ -22,7 +22,8 @@ As regional depopulation accelerates, understanding the functional connectivity 
 ```text
 ├── data/                 # Sampled data (Raw data not uploaded for security)
 ├── codes/                # Step-by-step analysis workflows
-│   ├── 01_Data_Preprocessing     # Data cleaning, monthly aggregation, and merging
-│   ├── 02_Spatial_Weighting      # KNN/Distance-band weight matrix construction
-│   └── 03_BiFlowLISA_Analysis    # Computation of BiFlowLISA indices
+│   ├── 01_pop_preprocessing.py
+│   ├── 02_card_preprocessing.py    
+│   ├── 03_filtering-depopulated-areas.py
+│   └── 04_knn_sensitivity_test.py
 └── requirements.txt      # List of required Python libraries
