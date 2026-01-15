@@ -13,19 +13,16 @@ As regional depopulation accelerates, understanding the functional connectivity 
 ### Key Features
 - **Data Integration:** Combines mobile-based floating population and credit card transaction data.
 - **Spatial Weighting:** Implements KNN-based spatial weight matrices for flow data.
-- **Flow-LISA:** Detects Hot-spots (HH) and Cold-spots (LL) of inter-regional interactions.
-- **Dynamic Visualization:** Visualizes complex flow patterns using Alluvial plots and LISA cluster maps.
+- **BiFlow-LISA:** Detects Hot-spots (HH) and Cold-spots (LL) of inter-regional bivariate interactions.
 
 ---
 
 ## 📂 Repository Structure
 
 ```text
-├── data/                 # Raw/Processed data descriptions (Data not uploaded for security)
+├── data/                 # Sampled data (Data not uploaded for security)
 ├── notebooks/            # Step-by-step analysis workflows
 │   ├── 01_Data_Preprocessing.ipynb    # Data cleaning, monthly aggregation, and merging
 │   ├── 02_Spatial_Weighting.ipynb     # KNN/Distance-band weight matrix construction
-│   ├── 03_Flow_LISA_Analysis.ipynb    # Computation of Flow-LISA indices
-│   └── 04_Visualization.ipynb         # Generation of LISA maps and Alluvial plots
-├── .gitignore            # Rules to exclude large data files and checkpoints
+│   └── 03_BiFlowLISA_Analysis.ipynb    # Computation of BiFlowLISA indices
 └── requirements.txt      # List of required Python libraries
