@@ -21,9 +21,8 @@ As regional depopulation accelerates, understanding the functional connectivity 
 
 ```text
 ├── data/                 # Sampled data (Raw data not uploaded for security)
-├── codes/                # Step-by-step analysis workflows
-│   ├── 01_pop_preprocessing.py
-│   ├── 02_card_preprocessing.py    
-│   ├── 03_filtering-depopulated-areas.py
-│   └── 04_knn_sensitivity_test.py
-└── requirements.txt      # List of required Python libraries
+└── codes/                # Step-by-step analysis workflows
+    ├── 01_pop_preprocessing.py
+    ├── 02_card_preprocessing.py    
+    ├── 03_filtering-depopulated-areas.py
+    └── 04_knn_sensitivity_test.py
